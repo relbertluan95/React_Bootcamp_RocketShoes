@@ -13,24 +13,24 @@ export const ProductList = styled.ul`
     background: #fff;
     border-radius: 4px;
     padding: 20px;
-  }
 
-  img {
-    align-self: center;
-    max-width: 250px;
-  }
+    img {
+      align-self: center;
+      max-width: 250px;
+    }
 
-  > strong {
-    font-size: 16px;
-    line-height: 20px;
-    color: #333;
-    margin-top: 5px;
-  }
+    > strong {
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      margin-top: 5px;
+    }
 
-  > span {
-    font-size: 21px;
-    font-weight: bold;
-    margin: 5px 0 20px;
+    > span {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 5px 0 20px;
+    }
   }
 
   button {
@@ -43,7 +43,7 @@ export const ProductList = styled.ul`
 
     display: flex;
     align-items: center;
-    transition: background 0.2s
+    transition: background 0.2s;
 
     &:hover {
       background: ${darken(0.03, '#7159c1')};
@@ -54,15 +54,15 @@ export const ProductList = styled.ul`
       align-items: center;
       padding: 12px;
       background: rgba(0, 0, 0, 0.1);
-    }
 
-    svg {
-      margin-right: 5px;
+      svg {
+        margin-right: 5px;
+      }
     }
-  }
-  span {
-    flex: 1;
-    text-align: center;
-    font-weight: bold;
+    span {
+      flex: 1;
+      text-align: center;
+      font-weight: bold;
+    }
   }
 `;
